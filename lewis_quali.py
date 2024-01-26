@@ -1,19 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-# Installing Dash
-
-get_ipython().system('pip install dash')
-
-
-# In[2]:
-
-
-# Importing all the necessary libraries for this project 
-
 from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
