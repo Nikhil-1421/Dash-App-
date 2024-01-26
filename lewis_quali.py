@@ -93,6 +93,7 @@ def time2(time_in_seconds):
 
 # Creating the dashboard 
 app = Dash(__name__)
+server=app.server
 
 #Using a function to serve_layout so that the dashboard will continuously update 
 def serve_layout():
